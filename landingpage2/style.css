@@ -1,0 +1,110 @@
+@font-face{
+    font-family: "robotto";
+    src: url(./fonts/Roboto-Light.ttf);
+}
+@font-face{
+    font-family: "open sans";
+    src: url(./fonts/OpenSans_Condensed-Regular.ttf);
+}
+*{
+    box-sizing: border-box;
+}
+section{
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-bottom: 100px;
+    
+}
+body{
+    margin: 0;
+}
+.section1{
+    background: var(--Black-5, rgba(30, 40, 50, 0.05));
+    padding-bottom: 60px;
+    height: 130vh;
+   padding-top: 30px;
+   
+}
+.company-logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icons{
+    display: flex;  
+    gap: 10px;
+   
+}
+a{
+    text-decoration: none;
+    color: var(--Black, #1E2832);
+    font-family: "robotto";
+    font-size: 18px;
+    font-weight: 600;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    
+    padding: 0;
+}
+li a{
+    color: var(--Dark, #000); 
+    font-family: "open sans";
+    font-size: 16px;
+    font-weight: 600;
+   
+}
+.container{
+    margin-top: 81px;
+    display: flex;
+    gap: 98px;
+}
+h1{
+    color: var(--Dark, #000);  
+    font-family: "robotto";
+    font-size: 74px;
+    font-weight: 300;
+}
+p{
+    color: var(--Dark, #000);
+    font-family: "robotto";
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 55px; /* 183.333% */
+    width: 682px;
+}
+button{
+    width: 223px;
+    height: 72px;
+    display: inline-flex;
+    padding: 19px 26px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    background: var(--Black, #1E2832); 
+    color: var(--White, #FFF);
+    font-family: "robotto";
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 50px;
+}
+/*      SECTION2        */
+.section2{
+
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px
+    ;
+}
+/*          SECTION3             */
+.cards{
+    display: flex;
+    gap: 15px
+    ;
+}
+.card4{
+    margin-top: 18px;
+}
